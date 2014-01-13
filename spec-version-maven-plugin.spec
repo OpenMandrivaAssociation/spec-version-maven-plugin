@@ -1,4 +1,4 @@
-%_javapackages_macros
+%{?_javapackages_macros:%_javapackages_macros}
 Name:          spec-version-maven-plugin
 Version:       1.2
 Release:       3.0%{?dist}
@@ -62,3 +62,14 @@ sed -i 's/\r//' LICENSE.txt
 
 %files javadoc -f .mfiles-javadoc
 %doc LICENSE.txt
+
+%changelog
+* Sun Aug 04 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.2-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_20_Mass_Rebuild
+
+* Tue Jul 02 2013 gil cattaneo <puntogil@libero.it> 1.2-2
+- build with XMvn
+- minor changes to adapt to current guideline
+
+* Wed May 22 2013 gil cattaneo <puntogil@libero.it> 1.2-1
+- initial rpm
