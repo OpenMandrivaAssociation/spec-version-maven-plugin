@@ -1,8 +1,9 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:          spec-version-maven-plugin
 Version:       1.2
-Release:       3.0%{?dist}
+Release:       3.1
 Summary:       Spec Version Maven Plugin
+Group:		Development/Java
 License:       CDDL or GPLv2 with exceptions
 URL:           http://glassfish.java.net/
 # svn export https://svn.java.net/svn/glassfish~svn/tags/spec-version-maven-plugin-1.2
@@ -13,7 +14,7 @@ Source0:       %{name}-%{version}-src-svn.tar.gz
 Source1:       glassfish-LICENSE.txt
 
 BuildRequires: java-devel
-BuildRequires: mvn(net.java:jvnet-parent)
+BuildRequires: mvn(net.java:jvnet-parent:pom:)
 
 BuildRequires: mvn(org.apache.maven:maven-core)
 BuildRequires: mvn(org.apache.maven:maven-model)
