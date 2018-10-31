@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:          spec-version-maven-plugin
 Version:       1.2
-Release:       3.1
+Release:       3.2
 Summary:       Spec Version Maven Plugin
 Group:		Development/Java
 License:       CDDL or GPLv2 with exceptions
