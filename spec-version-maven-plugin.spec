@@ -5,7 +5,7 @@ Release:       3.2
 Summary:       Spec Version Maven Plugin
 Group:		Development/Java
 License:       CDDL or GPLv2 with exceptions
-URL:           http://glassfish.java.net/
+URL:           https://glassfish.java.net/
 # svn export https://svn.java.net/svn/glassfish~svn/tags/spec-version-maven-plugin-1.2
 # tar czf spec-version-maven-plugin-1.2-src-svn.tar.gz spec-version-maven-plugin-1.2
 Source0:       %{name}-%{version}-src-svn.tar.gz
